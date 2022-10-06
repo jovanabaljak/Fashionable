@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2019, 12:19:01 PM
+    Author     : frontend
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Roboto:400,700&display=swap&subset=latin-ext');
+
+/*
+
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Playfair Display', serif;
+
+
+*/
+
+body{
+    color:#000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+p{
+    line-height: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+
+/*header style*/
+
+
+.navbar-brand{
+    max-width: 50%;
+}
+
+.navbar-toggler span{
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    display: block;  
+}
+
+.navbar-toggler span:last-of-type{
+    margin-bottom: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    line-height: 1.27rem;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    background: #fff;
+    color:#000;
+}
+
+
+
+/*news */
+
+.news-title a{
+    line-height: 36px;
+   color:#000 !important;
+}
+
+
+.news .news-image{
+    overflow: hidden;
+}
+
+.news .news-image img{
+    transition: 0.5s linear;
+}
+
+.news .news-image:hover img{
+    transform: scale(1.1);
+}
+
+
+.blog .blog-item-title a{
+    color:#000;
+    font-size: 22px;
+    font-weight: 900;
+}
+.blog .bg-dark{
+    background-color: #000 !important;
+}
+.blog .bg-dark .blog-item-title a{
+    color:#fff;
+}
+
+
+
+/*social*/
+.social a{
+    color:#fff;
+    font-size: 2rem;
+    padding: 0 10px;
+    text-decoration: none !important;
+}
